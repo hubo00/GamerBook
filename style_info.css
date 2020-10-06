@@ -1,0 +1,174 @@
+body{
+    background-color: #8c8c8c;
+}
+
+header{
+    background-color: #0066ff;
+}
+
+#logo{
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    margin-left: 0.5em;
+    width: 10em;
+}
+
+#name{
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 14.6em;
+    font-size: 60pt;
+}
+
+nav{
+    text-align: right;
+}
+
+#sub{
+    background-color: #0066ff;
+}
+
+
+#mcolumn{
+    background-color: #e6e6e6;
+
+    margin-top: 3em;
+    position: fixed;
+    left: 30%;
+    width: 40%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+input{
+	margin-left: 4em;
+	}
+
+textarea{
+	margin-left: 4em;
+	}
+	
+h1{
+	text-align: center;
+	}
+	
+.email{
+	margin-left: 2.4em;
+	}
+
+.button{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 2em;
+	}
+
+a{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+#popularlinks{
+    background-color: white;
+    width: 40%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+#populartag{
+    margin-left: 1em;
+    margin-right: 2em;
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0066ff;
+}
+
+.popular{
+    display: inline;
+    text-decoration: none;
+    margin-left: 1.5em;
+    background-color: white;
+}
+
+.popular:link, .popular:visited{
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.navlinks{
+    background-color: #4d94ff;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navlinks:hover, .navlinks:active{
+    background-color: #0066ff;   
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #name{
+        margin-left: 20vw;
+        font-size: 60px;
+    }
+
+    .navlinks{
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    #popularlinks{
+        width: 100%;
+        margin-left: 0em;
+    }
+
+    #mcolumn{
+        width: 60%;
+    }
+
+}
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #name{
+        margin-left: 0.01em;
+        font-size: 33px;
+    }
+
+    .navlinks{
+        float: left;
+        padding-left: 0.545em;
+        padding-right: 0.545em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-width: 0.05em;
+        border-color: #0066ff;
+    }
+
+    #popularlinks{
+        width: 100%; 
+        margin-top: 4em;
+    }
+
+    #populartag{
+        margin-right: 0.5em;
+    }
+
+    .popular{
+        margin-left: 0.7em;
+    }
+    #mcolumn{
+        width: 80%;
+    }
+}

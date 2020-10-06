@@ -1,0 +1,303 @@
+body{
+    background-color: #8c8c8c;
+}
+
+header{
+    width: 100%;
+    background-color: #0066ff;
+}
+
+#logo{
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    margin-left: 0.5em;
+    width: 10em;
+}
+
+#name{
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 14.6em;
+    font-size: 60pt;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #name{
+        margin-left: 20vw;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #name{
+        margin-left: 0.01em;
+        font-size: 33px;
+
+    }
+}
+
+
+nav{
+    text-align: right;
+}
+
+.navlinks{
+    background-color: #4d94ff;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    .navlinks{
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    .navlinks{
+        float: left;
+        padding-left: 0.545em;
+        padding-right: 0.545em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-width: 0.05em;
+        border-color: #0066ff;
+    }
+}
+
+.navlinks:hover, .navlinks:active{
+    background-color: #0066ff;   
+}
+
+#sub{
+    background-color: #0066ff;
+}
+
+#popularlinks{
+    background-color: white;
+    width: 50%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #popularlinks{
+        width: 100%;
+        margin-left: 0em;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #popularlinks{
+        width: 100%; 
+        margin-top: 4em;
+    }
+}
+
+#populartag{
+    margin-left: 1em;
+    margin-right: 2em;
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0066ff;
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #populartag{
+        margin-right: 0.5em;
+    }
+}
+
+.popular{
+    display: inline;
+    text-decoration: none;
+    margin-left: 1.5em;
+    background-color: white;
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    .popular{
+        margin-left: 0.7em;
+    }
+}
+
+.popular:link, .popular:visited{
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+#lcolumn{
+    border-radius: 0.5em;
+    background-color: #e6e6e6;
+    float: left;
+    width: 67vw;
+    margin-top: 5em;
+    margin-left: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #lcolumn{
+        display: inline;
+        width: 60vw;
+        border-radius: 0.5em;
+        background-color: #e6e6e6;
+        float: left;
+        margin-top: 5em;
+        margin-left: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #lcolumn{
+        width: 90vw;
+        border-radius: 0.5em;
+        background-color: #e6e6e6;
+        margin-top: 5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+#rcolumn{
+    border-radius: 0.5em;
+    background-color: #e6e6e6;
+    width: 25vw;
+    float: right;
+    margin-top: 5em;
+    margin-right: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #rcolumn{
+        border-radius: 0.5em;
+        background-color: #e6e6e6;
+        width: 25vw;
+        float: right;
+        margin-top: 5em;
+        margin-right: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #rcolumn{
+        border-radius: 0.5em;
+        background-color: #e6e6e6;
+        width: 90vw;
+        margin-top: 5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+
+a{
+    font-family: sans-serif;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+
+p1{
+    padding-left: 27vw;
+    font-family: sans-serif;
+}
+
+h5{
+    font-size: 2em;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 0.01em;
+}
+
+h6{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding-top: 0.01em;
+}
+
+h7{
+    font-size: 1.35em;
+    font-family: sans-serif;
+}
+
+#outlast{
+    height: 25vw;
+    width: 20vw;
+    float: left;
+}
+
+#league{
+    width: 67vw;
+    height: 35vw;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #league{
+        width: 60vw;
+        height: 35vw;
+    }
+}
+
+ul{
+    padding-left: 1em;
+}
+
+footer{
+    clear: both;
+    position: relative;
+    border-style: solid;
+    border-width: 0.05em;
+    border-color: #737373;
+    height: 5em;
+}
+
+.backtotop{
+    position: relative;
+    margin-left: 55em;
+    color: #737373;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    .backtotop{
+        margin-left: 20em;
+    }
+}
+
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    .backtotop{
+        margin-left: 9em;
+    }
+}
+
+.footertext{
+    text-align: center;
+}
+
+.backtotop:hover, .backtotop:active{
+    color: #404040;
+}
+

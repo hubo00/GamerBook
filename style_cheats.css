@@ -1,0 +1,206 @@
+body{
+    background-color: #8c8c8c;
+}
+
+header{
+    background-color: #0066ff;
+}
+
+#logo{
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    margin-left: 0.5em;
+    width: 10em;
+}
+
+#name{
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 14.6em;
+    font-size: 60pt;
+}
+
+nav{
+    text-align: right;
+}
+
+#sub{
+    background-color: #0066ff;
+}
+
+img {
+    width: 40%;
+    text-align: center;
+    border-radius: 1em;
+}
+
+
+h1{
+	text-align: center;
+    }
+    
+h2 {
+    margin-top: 2em;
+    width: 40%;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 18pt;
+    border-style: solid;
+    border-color: #0066ff;
+    background-color: #0066ff;
+    border-radius: 1em;
+}
+
+h3 {
+    margin-top: 2em;
+    width: 20%;
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 14pt;
+    border-style: solid;
+    border-color: #0066ff;
+    background-color: #0066ff;
+    border-radius: 1em;
+    margin-bottom: 0;
+}
+
+h6 {
+    margin-top: .1em;
+    margin-bottom: .1em;
+}
+
+a{
+    font-family: sans-serif;
+}
+
+p{
+    margin-top: 0;
+    width: 80%;
+    color: black;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 12pt;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 1em;
+}
+
+#popularlinks{
+    background-color: white;
+    width: 40%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+#populartag{
+    margin-left: 1em;
+    margin-right: 2em;
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0066ff;
+}
+
+.popular{
+    display: inline;
+    text-decoration: none;
+    margin-left: 1.5em;
+    background-color: white;
+}
+
+.popular:link, .popular:visited{
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.navlinks{
+    background-color: #4d94ff;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navlinks:hover, .navlinks:active{
+    background-color: #0066ff;   
+}
+@media screen and (max-width: 768px){ /* iPad Display Width */
+    #name{
+        margin-left: 20vw;
+        font-size: 60px;
+    }
+
+    .navlinks{
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    #popularlinks{
+        width: 100%;
+        margin-left: 0em;
+    }
+
+    h2 {
+        width: 50%;
+    }
+
+    h3{
+        width: 30%;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 375px){ /* iPhone X Display Width */
+    #name{
+        margin-left: 0.01em;
+        font-size: 33px;
+    }
+
+    .navlinks{
+        float: left;
+        padding-left: 0.545em;
+        padding-right: 0.545em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-right-style: solid;
+        border-left-style: solid;
+        border-width: 0.05em;
+        border-color: #0066ff;
+    }
+
+    #popularlinks{
+        width: 100%; 
+        margin-top: 4em;
+    }
+
+    #populartag{
+        margin-right: 0.5em;
+    }
+
+    .popular{
+        margin-left: 0.7em;
+    }
+    
+    h2 {
+        width: 60%;
+    }
+
+    h3{
+        width: 40%;
+    }
+
+    img {
+        width: 80%;
+    }
+}
